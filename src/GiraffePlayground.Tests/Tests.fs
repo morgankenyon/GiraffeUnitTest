@@ -30,7 +30,7 @@ let getBody (ctx : HttpContext) =
     reader.ReadToEnd()
 
 [<Fact>]
-let ``My test`` () =
+let ``InsertUserHandler Works!!!`` () =
     let fakeDbInsert (user: User) : Result<User, string> =
         Ok user
         
